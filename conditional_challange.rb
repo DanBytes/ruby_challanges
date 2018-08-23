@@ -32,7 +32,7 @@ end
 while application_runtime 
     puts "What would you like to do? e.g (options: balance, deposit, quit)"
 
-    user_options_inpput = gets.chomp
+    user_options_inpput = gets.chomp.downcase
 
     if (user_options_inpput == banking_options[0])
     
